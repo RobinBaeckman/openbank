@@ -1,4 +1,10 @@
+// +gunk java.Package("to.bnk.api.types")
+// +gunk java.MultipleFiles(true)
 package types
+
+import (
+    "github.com/gunk/opt/file/java"
+)
 
 // Amount defines a transaction amount.
 type Amount struct {

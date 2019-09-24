@@ -1,3 +1,5 @@
+// +gunk java.Package("to.bnk.api.auth")
+// +gunk java.MultipleFiles(true)
 // +gunk openapiv2.Swagger{
 //         Swagger: "2.0",
 //         Info: openapiv2.Info{
@@ -37,6 +39,7 @@ package auth
 import (
 	"github.com/gunk/opt/http"
 	"github.com/gunk/opt/openapiv2"
+    "github.com/gunk/opt/file/java"
 )
 
 // GetAuthorizationCodeRequest is the request envelope to retrieve an authorization code.

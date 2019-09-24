@@ -4,8 +4,14 @@ version=v3.9.1
 [generate go]
 plugins=grpc
 
+[generate java]
+out=src/main/java
+lite
+
 [generate]
-command=protoc-gen-grpc-gateway
+protoc=grpc-java
+out=src/main/java
+lite
 
 [generate swagger]
 
